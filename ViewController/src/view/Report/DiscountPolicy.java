@@ -52,7 +52,7 @@ public class DiscountPolicy {
                 reportBean.setReportParameter("P_Grade_id", gotGrade.toString());
             }
             
-         reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Discount_Policy_Report&");
+         reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Discount_Policy_Report&");
         } 
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]

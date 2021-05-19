@@ -19,7 +19,7 @@ public class VoucherPrint {
         BigDecimal sendStdRegID = (BigDecimal) actionEvent.getComponent().getAttributes().get("sendStdRegID");
         reportBean.setReportParameter("P_Std_reg_id", sendStdRegID.toString());
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Student_Registration_Voucher&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Student_Registration_Voucher&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,
@@ -37,7 +37,7 @@ public class VoucherPrint {
         BigDecimal sendStaffID = (BigDecimal) actionEvent.getComponent().getAttributes().get("sendStaffID");
         reportBean.setReportParameter("P_Staff_id", sendStaffID.toString());
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Staff_Detail_Voucher&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Staff_Detail_Voucher&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,
@@ -55,7 +55,7 @@ public class VoucherPrint {
         BigDecimal sendEnqFollowUpID = (BigDecimal) actionEvent.getComponent().getAttributes().get("sendEnqFollowUpID");
         reportBean.setReportParameter("P_Enq_Follow_up_id", sendEnqFollowUpID.toString());
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Enquiry_Follow_Up_Voucher&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Enquiry_Follow_Up_Voucher&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,
@@ -73,7 +73,7 @@ public class VoucherPrint {
         BigDecimal sendGradeAttID = (BigDecimal) actionEvent.getComponent().getAttributes().get("sendGradeAttID");
         reportBean.setReportParameter("P_Grade_Att_M_ID", sendGradeAttID.toString());
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Grade_ATT_Voucher&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Grade_ATT_Voucher&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,
@@ -91,7 +91,7 @@ public class VoucherPrint {
         BigDecimal sendStdEnqID = (BigDecimal) actionEvent.getComponent().getAttributes().get("sendStdEnqID");
         reportBean.setReportParameter("P_Std_Enq_id", sendStdEnqID.toString());
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Student_Enquiry_With_Follow_Up_Voucher&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Student_Enquiry_With_Follow_Up_Voucher&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,

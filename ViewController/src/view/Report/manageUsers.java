@@ -28,7 +28,7 @@ public class manageUsers {
                 reportBean.setReportParameter("P_Role_Id", sendStdIDLgr.toString());
             }
            
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/User_Role_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/User_Role_Detail_Report&");
                 
         
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,

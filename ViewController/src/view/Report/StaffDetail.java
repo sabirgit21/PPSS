@@ -41,22 +41,22 @@ public class StaffDetail {
             switch (selectedReportType) {
             case "MiscellaneousDocumentsDetailReport":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Miscellaneous_Documents_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Miscellaneous_Documents_Detail_Report&");
                 break;
             
             case "PassportExpiryDetailReport":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Passport_Expiry_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Passport_Expiry_Detail_Report&");
                 break;
 
             case "VisaExpiryDetailReport":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Visa_Expiry_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Visa_Expiry_Detail_Report&");
                 break;
 
             case "StaffDetailReport":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Staff_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Staff_Detail_Report&");
                 break;
 
             default:

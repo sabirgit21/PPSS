@@ -63,7 +63,7 @@ public class FeeGeneration {
             }
         //calling procedure end//
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/STD_Ledger&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/STD_Ledger&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,
@@ -82,7 +82,7 @@ public class FeeGeneration {
         Number sendStdID = (Number) actionEvent.getComponent().getAttributes().get("sendStdID");
         reportBean.setReportParameter("P_Std_reg_id", sendStdID.toString());
         
-        reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/STD_Fee_Detail&");
+        reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/STD_Fee_Detail&");
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESTYPE,
                                         "CACHE"); // which will be one of the [cashe - file - mail - printer]
         reportBean.setReportServerParam(OracleReportBean.RS_PARAM_DESFORMAT,
@@ -117,12 +117,12 @@ public class FeeGeneration {
             switch (selectedReportType) {
             case "FeeGenerateDetail":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Fee_Generate_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Fee_Generate_Detail_Report&");
                 break;
 
             case "StudentFeeDetail":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/STD_Fee_Detail&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/STD_Fee_Detail&");
                 break;
 
             default:

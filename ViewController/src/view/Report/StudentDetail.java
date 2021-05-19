@@ -38,15 +38,15 @@ public class StudentDetail {
             switch (selectedReportType) {
             case "StudentBIOData":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Students_biodata&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Students_biodata&");
                 break;
             case "StudentDetail":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Student_Registration_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Student_Registration_Detail_Report&");
                 break;
             case "StudentGradeWise":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/Students_Biodata_GradeWise&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/Students_Biodata_GradeWise&");
                 break;
 
             

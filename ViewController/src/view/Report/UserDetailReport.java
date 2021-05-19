@@ -47,7 +47,7 @@ public class UserDetailReport {
             switch (selectedReportType) {
             case "UserRoleDetail":
 
-                reportBean.setReportURLName("userid=ppss/ppss@orcl&domain=classicdomain&report=C:/PPSS_Reports/User_Role_Detail_Report&");
+                reportBean.setReportURLName("userid=ppss/ppssir@orcl&domain=classicdomain&report=C:/PPSS_Reports/User_Role_Detail_Report&");
                 break;
 
             
