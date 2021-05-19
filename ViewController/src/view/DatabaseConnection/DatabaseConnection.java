@@ -24,7 +24,7 @@ public class DatabaseConnection {
         setUNamee("ppss");
         setUpasss("ppssir");
 //        setUipp("207.180.246.67");
-        setUipp("192.168.1.4");
+        setUipp("207.180.246.67");
         setUportADF("1521");
         setUSID("orcl");
         /* END  */
